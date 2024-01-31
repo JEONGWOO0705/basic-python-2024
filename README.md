@@ -68,3 +68,4 @@
             - 명사는 변수, 동사는 함수
             - 변수와 함수를 모두 모아둔 곳 : 클래스 (class) ==> class 는 객체가 아니다. class에서 나온 것이 객체이다!!
             - class에서 하나씩 생성 : 객체 (object)
+            - class ghkdkdkdk
