@@ -4,6 +4,7 @@
 
 # mode : a(append: 내용 추가), r(read : 파일 읽기), w(write : 파일 쓰기)
 # encoding : cp949 (한글), utf-8(만국 공통어)
+# f = open(r'.\day04\sample.txt', mode='w', encoding='utf-8')
 f = open('sample.txt', mode='w', encoding='utf-8')
 
 # 뭔가를 한다     .write()에서 엔터를 추가할려면 마지막에 \n을 추가!!
