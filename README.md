@@ -104,6 +104,9 @@
     
 - 파이썬 활용
     - 주피터 노트북
+        - Ctrl + Shift + P (보기 => 명령 팔레트) 로 시작
+        - 사용방법 (text31_jupyternb.ipybn 참조)
+    - folium
 
 
 
