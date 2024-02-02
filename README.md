@@ -116,6 +116,9 @@
     - 주피터 노트북 활용 - 구글 코랩(Colab)
     - folium 계속
     - json (Java Script Object Notation) 사용법, 입출력
+    - 응용 예제 연습 (10개)
+        - IP 주소 확인 예제
+        - QR Code 
 
 
 
