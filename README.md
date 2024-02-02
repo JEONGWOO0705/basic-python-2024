@@ -114,7 +114,8 @@
 ## 5일차
 - 파이썬 응용
     - 주피터 노트북 활용 - 구글 코랩(Colab)
-
+    - folium 계속
+    - json (Java Script Object Notation) 사용법, 입출력
 
 
 
