@@ -102,14 +102,18 @@
     f.close()       # 파일은 반드시 닫는다
     ```
     
-- 파이썬 활용
+- 파이썬 응용
     - 주피터 노트북
         - Ctrl + Shift + P (보기 => 명령 팔레트) 로 시작
         - 사용방법 (text31_jupyternb.ipybn 참조)
     - folium 기본 사용
+    ![folium 사용법](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_001.png)
 
 
 
+## 5일차
+- 파이썬 응용
+    - 주피터 노트북 활용 - 구글 코랩(Colab)
 
 
 
