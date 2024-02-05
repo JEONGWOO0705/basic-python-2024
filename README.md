@@ -119,7 +119,8 @@
     - 응용 예제 연습 (10개)
         - IP 주소 확인 예제
         - QR Code 
-            ![QR Code](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/day05/qrcode_01.png)
+
+    ![QR Code](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/day05/qrcode_01.png)
 
 
 ## 6일차
@@ -138,7 +139,29 @@
         - UI Thread 하나로 모든 일을 못함
         - 다른 Thread를 만들어 일을 병렬로 수행하게함 !!
         -GIL, 병렬 프로세싱 더 학습할 것
-    ![쓰레드 예제](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_002.png)
+    ![쓰레드 예제](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_002.gif)
+
+    ```python
+        # 쓰레드 클래스에서 시그널 선언
+        class BackWorker(QThread): # PyQt에서 스레드 클래스 상속
+            initSignal = pyqtSignal(int) # 시그널을 UI스레드로 전달하기위한 변수객체
+            setSignal = pyqtSignal(int)
+            # ...
+
+            def run(self) -> None: # 스레드 실행
+                # 스레드로 동작할 내용
+                maxVal = 1000001
+                self.initSignal.emit(maxVal) # UI쓰레드로 보내기...
+                # ...
+
+        class qtwin_exam(QWidget):  # UI 스레드
+            # ...
+            def btnStartClicked(self):
+                th = BackWorker(self)
+                th.start() # BackWorker 내의 self.run() 실행
+                th.initSignal.connect(self.initPgbTask) # 스레드에서 초기화 시그널이 오면 initPgbTask 슬롯함수가 대신 처리
+                # ...    
+        ```
 
     
 - 가상환경
