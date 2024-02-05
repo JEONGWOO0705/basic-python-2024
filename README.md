@@ -119,6 +119,7 @@
     - 응용 예제 연습 (10개)
         - IP 주소 확인 예제
         - QR Code 
+        ![QR Code](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/day05/qrcode_01.png)
 
 
 ## 6일차
@@ -132,6 +133,12 @@
     > pip install PyQt5Designer
     ```
     - PyQt5 기본 실행
+    - QtDesigner 사용법
+    - ☆☆☆ Thread 학습 : UI 쓰레드와 Background 쓰레드 분리
+        - UI Thread 하나로 모든 일을 못함
+        - 다른 Thread를 만들어 일을 병렬로 수행하게함 !!
+        -GIL, 병렬 프로세싱 더 학습할 것
+        ![쓰레드 예제](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_003.png)
 
     
 - 가상환경
