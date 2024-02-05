@@ -139,6 +139,7 @@
         - UI Thread 하나로 모든 일을 못함
         - 다른 Thread를 만들어 일을 병렬로 수행하게함 !!
         - GIL, 병렬 프로세싱 더 학습할 것
+
     ![쓰레드 예제](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_002.gif)
 
     ```python
@@ -161,6 +162,12 @@
                 th.start() # BackWorker 내의 self.run() 실행
                 th.initSignal.connect(self.initPgbTask) # 스레드에서 초기화 시그널이 오면 initPgbTask 슬롯함수가 대신 처리
                 # ...    
+
+            # 스레드에서 시그널이 넘어오면 UI처리를 대신 해주는 부분 -> 슬롯 함수
+            @pyqtSlot(int) # BackWorker 스레드에서 self.initSignal.emit() 동작해서 실행
+            def initPgbTask(self, maxVal):
+                self.pgbTask.setValue(0)
+                self.pgbTask.setRange(0,maxVal-1)
         ```
 
     
