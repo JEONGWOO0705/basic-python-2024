@@ -122,8 +122,16 @@
 
 
 ## 6일차
+- Python 라이브러리 경로 : C:\DEV\Langs\Python311\Lib\site-packages
+
 - 파이썬 응용
     - Window App(PyQt) 만들기
+
+    ```shell
+    > pip install PyQt5
+    > pip install PyQt5Designer
+    ```
+    - PyQt5 기본 실행
 
     
 - 가상환경
@@ -134,8 +142,8 @@
 
 
 
-        - 객체 지향(나중에...)
-            - 오버로딩, 오버라이딩(재정의)
-            - 상속, 다중 상속
-            - 추상클래스
+- 객체 지향(나중에...)
+    - 오버로딩, 오버라이딩(재정의)
+        - 상속, 다중 상속
+        - 추상클래스
       
