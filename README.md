@@ -179,7 +179,7 @@
         - 오버로드(같은 이름의 함수를 매개변수 다르게 사용 -> 같은 이름의 함수를 다른 역할로써 활용)
     - 가상환경
 
- ![가상 환경](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_003.png)
+    ![가상 환경](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_003.png)
 
 
     - PyQt5와 응용예제 연습
