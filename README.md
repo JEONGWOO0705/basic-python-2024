@@ -190,6 +190,12 @@
     ![PyQt 예제](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_006.png)
 
 
+## 8일차
+- 파이썬 응용
+    - PyQt5 응용예제 계속
+- 파이썬 기본 코딩 테스트!!
+
+
 
 
 
