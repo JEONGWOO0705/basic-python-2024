@@ -170,17 +170,22 @@
                 self.pgbTask.setRange(0,maxVal-1)
         ```
 
-    
-- 가상환경
+
+## 7일차
+- 파이썬 응용
+    - 객체지향
+        - 상속
+        - 오버라이딩(재정의) 
+        - 오버로드(같은 이름의 함수를 매개변수 다르게 사용 -> 같은 이름의 함수를 다른 역할로써 활용)
+    - 가상환경
+
+ ![가상 환경](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_003.png)
+
+
+    - PyQt5와 응용예제 연습
 
 
 
 
 
-
-
-- 객체 지향(나중에...)
-    - 오버로딩, 오버라이딩(재정의)
-        - 상속, 다중 상속
-        - 추상클래스
       
