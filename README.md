@@ -187,7 +187,7 @@
         - 이미지 뷰어
         - 이미지 에디터(그림판)
 
-    ![쓰레드 예제](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_006.png)
+    ![PyQt 예제](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_006.png)
 
 
 
