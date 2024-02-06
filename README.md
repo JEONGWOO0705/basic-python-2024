@@ -173,16 +173,21 @@
 
 ## 7일차
 - 파이썬 응용
-    - 객체지향
+    - 객체지향 정리
         - 상속
         - 오버라이딩(재정의) 
         - 오버로드(같은 이름의 함수를 매개변수 다르게 사용 -> 같은 이름의 함수를 다른 역할로써 활용)
     - 가상환경 Virtualenv
+        - 다른 버전의 파이썬도 설치해야 사용 가능
 
     ![가상 환경](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_003.png)
 
 
     - PyQt5와 응용예제 연습
+        - 이미지 뷰어
+        - 이미지 에디터(그림판)
+
+    ![쓰레드 예제](https://raw.githubusercontent.com/JEONGWOO0705/basic-python-2024/main/images/python_006.png)
 
 
 
